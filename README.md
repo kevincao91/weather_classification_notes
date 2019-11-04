@@ -31,7 +31,7 @@ index |model   |scale |batch |pre-trained|lr  |lr step |max epoch |time/epoch |t
 
 index |model   |scale |batch |pre-trained|lr  |lr step |max epoch |time/epoch |train/mem/GPU |Acc/train |Acc/test |test fps  |test/mem/GPU |
 ------|--------|------|------|-----------|----|--------|----------|-----------|--------------|----------|---------|----------|-------------|
-2-1   |Res-101 |64    |512   |NO         |0.1 |40      |100       |900 s      |6729 MB       |1.00      |0.85     |          |             |
+2-1   |Res-101 |64    |512   |NO         |0.1 |40      |100       |900 s      |6729 MB       |          |         |          |             |
 
 * Our pre-trained model weight can simply import via torchvision.
 * If not mentioned, the GPU we used is NVIDIA Titan X Pascal (12GB).
@@ -40,16 +40,16 @@ index |model   |scale |batch |pre-trained|lr  |lr step |max epoch |time/epoch |t
 
 1). Two-class Weather Classification (Trainval/Test: 8000/2000, model: resnet101) by run main-cuda.py
 
-    index == 1-1     dir == 11-03_19-33-17
-    Loss
+index == 1-1     dir == 11-03_19-33-17
+Loss
 <div style="color:#0000FF" align="center">
 <img src="Images/1-1_loss.jpg" width="860"/>
 </div>
-    accuracy
+accuracy
 <div style="color:#0000FF" align="center">
 <img src="Images/1-1_accuracy.jpg" width="860"/>
 </div>
-    learning_rate
+learning_rate
 <div style="color:#0000FF" align="center">
 <img src="Images/1-1_learning_rate.jpg" width="860"/>
 </div>
