@@ -42,17 +42,17 @@ index |model   |scale |batch |pre-trained|lr  |lr step |max epoch |time/epoch |t
 
     index == 1-1     dir == 11-03_19-33-17
     Loss
-    <div style="color:#0000FF" align="center">
-    <img src="Images/1-1_loss.jpg" width="860"/>
-    </div>
+<div style="color:#0000FF" align="center">
+<img src="Images/1-1_loss.jpg" width="860"/>
+</div>
     accuracy
-    <div style="color:#0000FF" align="center">
-    <img src="Images/1-1_accuracy.jpg" width="860"/>
-    </div>
+<div style="color:#0000FF" align="center">
+<img src="Images/1-1_accuracy.jpg" width="860"/>
+</div>
     learning_rate
-    <div style="color:#0000FF" align="center">
-    <img src="Images/1-1_learning_rate.jpg" width="860"/>
-    </div>
+<div style="color:#0000FF" align="center">
+<img src="Images/1-1_learning_rate.jpg" width="860"/>
+</div>
 
 ## Preparation
 
