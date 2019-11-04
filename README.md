@@ -1,5 +1,4 @@
-Weather Classification Experimental Notes
-
+weather classification experimental notes
 ====
 
 用神经网络对天气进行分类的实验记录
@@ -24,14 +23,14 @@ Weather Classification Experimental Notes
 1). Two-class Weather Classification (Trainval/Test: 8000/2000, model: resnet101) by run main-cuda.py
 
 index |model   |scale |batch |pre-trained|lr  |lr step |max epoch |time/epoch |train/mem/GPU |Acc/train |Acc/test |test fps  |test/mem/GPU |
-------|--------|------|------|-----------|----|----- --|----------|-----------|--------------|----------|---------|----------|-------------|
+------|--------|------|------|-----------|----|--------|----------|-----------|--------------|----------|---------|----------|-------------|
 1-1   |Res-101 |64    |512   |NO         |0.1 |40      |100       |65 s       |6729 MB       |1.00      |0.85     |126.59    | 6249        |
 
 
 2). UA-DETRAC (Trainval/Test: 112104/28027, model: resnet101) by run main-cuda.py
 
 index |model   |scale |batch |pre-trained|lr  |lr step |max epoch |time/epoch |train/mem/GPU |Acc/train |Acc/test |test fps  |test/mem/GPU |
-------|--------|------|------|-----------|----|----- --|----------|-----------|--------------|----------|---------|----------|-------------|
+------|--------|------|------|-----------|----|--------|----------|-----------|--------------|----------|---------|----------|-------------|
 2-1   |Res-101 |64    |512   |NO         |0.1 |40      |100       |900 s      |6729 MB       |1.00      |0.85     |          |             |
 
 * Our pre-trained model weight can simply import via torchvision.
