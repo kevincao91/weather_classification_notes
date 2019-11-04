@@ -11,7 +11,7 @@ weather classification experimental notes
 
    --日常场景的不同天气图片，包括sunny，cloudy  一共1万张。
 2. UA-DETRAC 
- 
+
    --中国公路场景的不同天气图片，原用于多目标检测和跟踪任务，包括sunny，cloudy， night， rainy  一共14.0131万张。
 
 采用的神经网络：
@@ -53,6 +53,23 @@ learning_rate
 <div style="color:#0000FF" align="center">
 <img src="Images/1-1_learning_rate.jpg" width="860"/>
 </div>
+
+True prediction
+<div style="color:#0000FF" align="center">
+<img src="Images/1-1_True/cloudy_0002_det.jpg" alt="Images/1-1_True/cloudy_0002_det.jpg" width="860" />
+</div>
+<div style="color:#0000FF" align="center">
+<img src="Images/1-1_True/cloudy_0002_det.jpg" alt="Images/1-1_True/cloudy_0009_det.jpg" width="860" />
+</div>
+False prediction
+<div style="color:#0000FF" align="center">
+<img src="Images/1-1_True/cloudy_0002_det.jpg" alt="Images/1-1_True/cloudy_0017_det.jpg" width="860" />
+</div>
+<div style="color:#0000FF" align="center">
+<img src="Images/1-1_True/cloudy_0002_det.jpg" alt="Images/1-1_True/cloudy_4979_det.jpg" width="860" />
+</div>
+
+
 
 ## Preparation
 
