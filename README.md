@@ -59,14 +59,15 @@ True prediction
 <img src="Images/1-1_True/cloudy_0002_det.jpg" alt="Images/1-1_True/cloudy_0002_det.jpg" width="860" />
 </div>
 <div style="color:#0000FF" align="center">
-<img src="Images/1-1_True/cloudy_0002_det.jpg" alt="Images/1-1_True/cloudy_0009_det.jpg" width="860" />
+<img src="Images/1-1_True/cloudy_0009_det.jpg" alt="Images/1-1_True/cloudy_0009_det.jpg" width="860" />
 </div>
+
 False prediction
 <div style="color:#0000FF" align="center">
-<img src="Images/1-1_True/cloudy_0002_det.jpg" alt="Images/1-1_True/cloudy_0017_det.jpg" width="860" />
+<img src="Images/1-1_False/cloudy_0017_det.jpg" alt="Images/1-1_False/cloudy_0017_det.jpg" width="860" />
 </div>
 <div style="color:#0000FF" align="center">
-<img src="Images/1-1_True/cloudy_0002_det.jpg" alt="Images/1-1_True/cloudy_4979_det.jpg" width="860" />
+<img src="Images/1-1_False/cloudy_4979_det.jpg" alt="Images/1-1_False/cloudy_4979_det.jpg" width="860" />
 </div>
 
 
