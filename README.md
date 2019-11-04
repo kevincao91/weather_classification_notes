@@ -41,6 +41,7 @@ index |model   |scale |batch |pre-trained|lr  |lr step |max epoch |time/epoch |t
 1). Two-class Weather Classification (Trainval/Test: 8000/2000, model: resnet101) by run main-cuda.py
 
 index == 1-1     dir == 11-03_19-33-17
+
 Loss
 <div style="color:#0000FF" align="center">
 <img src="Images/1-1_loss.jpg" width="860"/>
